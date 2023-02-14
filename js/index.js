@@ -1,4 +1,6 @@
 $("document").ready(function(){
+
+    AOS.init();
   
     var typingBool = false;
     var typingIdx = 0;

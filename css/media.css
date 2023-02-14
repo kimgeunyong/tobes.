@@ -1,0 +1,43 @@
+@media screen and (max-width: 1475px) {
+    .map{flex-wrap: wrap; padding: 0; padding-top: 50px;}
+    .map .content-map{order: -1;}
+    .map .content-map-txt{flex-basis: 70%; padding: 20px; display: flex; align-items: center; border-radius: 15px; font-size: 14px; flex-wrap: wrap;}
+    .map .content-map-txt .content-map-subtxt{padding: 0;}
+    .map .content-map-txt .content-map-subtxt ul li{margin: 0;}
+}
+
+@media screen and (max-width: 785px) {
+    .typing ul li{font-size: 3.5em;}
+    .main-nav ul li a{font-size: 1.5rem;}
+
+    .content .section .section-wrap .sub-title{font-size: 1.6rem;}
+    .content .section .section-wrap .sub-content ul li:first-child{font-size: 1rem;}
+
+    .footer .footer-wrap ul li{font-size: 0.8rem;}
+}
+
+@media screen and (max-width: 550px) {
+    .main .main-txt{width: 0;}
+    .typing ul li{font-size: 2.5em;}
+    .content .section .section-wrap .sub-title{font-size: 1.3rem;}
+    .content .section .section-wrap .sub-content ul li:first-child{font-size: 0.8rem;}
+
+    .root_daum_roughmap{max-width: 350px;}
+
+    .side ul li,.top-btn{width: 30px; height: 30px; font-size: 0.9rem; line-height: 30px;}
+
+    .footer .footer-wrap ul li{font-size: 0.6rem;}
+}
+
+@media screen and (max-width: 350px) {
+    /* .main-nav ul{padding-bottom: 200px;} */
+    .main-nav ul li{padding: 20px;}
+    .main-nav ul li a{font-size: 1rem;}
+
+    .content .section .section-wrap .sub-title{font-size: 1.1rem;}
+    .content .section .section-wrap .sub-content ul li:first-child{font-size: 0.7rem;}
+    
+    .root_daum_roughmap{max-width: 270px;}
+    .section2 .map .content-map-txt .content-map-title{width: 100%;}
+    .map .content-map-txt .content-map-subtxt ul li{font-size: 0.7rem;}
+}

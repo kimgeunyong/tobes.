@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="https://kit.fontawesome.com/259bf27272.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrap">
+        <div class="header-list">
+            <div class="logo">
+                <img src="img/tobes-wlogo2.png" alt="logo">
+            </div>
+        </div>
+        <div class="content">
+            <div class="section section2">
+                <div class="section-banner">
+                    <div class="banner-title">
+                        <a href="#">오시는 길</a>
+                    </div>
+                </div>
+                <div class="section-wrap">
+                    <div class="map">
+                        <div class="content-map-txt">
+                            <div class="content-map-title">
+                                <img src="img/tobes-logo2(1200630).png" alt="logo">
+                            </div>
+                            <div class="content-map-subtxt">
+                                <ul>
+                                    <li><b>본사 : </b>경상북도 포항시 북구 새천년대로 1033-11,2층(창포동)</li>
+                                    <li><b>연구소 : </b>대구광역시 동구 이노밸리로 322, 2F</li>
+                                    <li><b>대표번호 : </b>053-963-9336</li>
+                                </ul>
+                            </div>
+                            <div class="quick-link">
+                                <a href="http://kko.to/D-KW83LzG1">빠른길 찾기</a>
+                            </div>
+                        </div>
+                        <div class="content-map">
+                                <!-- 1. 지도 노드 -->
+                            <div id="daumRoughmapContainer1673497320851" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+                                <!-- 2. 설치 스크립트 -->
+                            <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+                                <!-- 3. 실행 스크립트 -->
+                            <script charset="UTF-8">
+                                new daum.roughmap.Lander({
+                                    "timestamp" : "1673497320851",
+                                    "key" : "2defj",
+                                    // "mapWidth" : "640",
+                                    "mapHeight" : "360"
+                                }).render();
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="side">
+            <div class="side-nav">
+                <ul>
+                    <li>
+                        <a href="index.html"><i class="fa-solid fa-house"></i></a>
+                    </li>
+                    <li>
+                        <a href="business.html"><i class="fa-solid fa-business-time"></i></a>
+                    </li>
+                    <!-- <li>
+                        <a href="map.html"><i class="fa-solid fa-map"></i></a>
+                    </li> -->
+                </ul>
+            </div>
+            <div class="top-btn">
+                <i class="fa-solid fa-arrow-up"></i>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-wrap">
+                <ul>
+                    <li><strong>투비스</strong></li>
+                    <li>회사소개</li>
+                </ul>
+                <ul>
+                    <ul class="footer-inner">
+                        <li><b>본사 : </b>대구광역시 동구 이노벨리로 322 비전스퀘어 314호</li>
+                    </ul>
+                    </li>
+                    <li>
+                        <ul class="footer-inner">
+                            <li><b>TEL : </b>053-963-9337</li>
+                            <li><b>FAX : </b>053-963-9336</li>
+                            <li><b> 대표 : </b>김광식</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

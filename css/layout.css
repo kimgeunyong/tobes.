@@ -1,6 +1,6 @@
 .wrap{width: 100%;}
 
-.main{width: 100%; height: 100vh; background: url(https://i.postimg.cc/yxqfwz2Y/dots-gc0002e5d6-1920.jpg) center center no-repeat; background-size: cover; box-sizing: border-box;}
+.main{width: 100%; height: 100vh; background: url(../img/background.png) center center no-repeat; background-size: cover; box-sizing: border-box;}
 .main .cover{background: rgba(0, 0, 0, 0.637); height: 100vh; padding: 0 2%;}
 .main .main-wrap{max-width: 1200px; margin: 0 auto; display: flex; justify-content: center; align-items: center; height: 100%; flex-wrap: wrap;}
 .main .main-content{padding-top: 200px; width: 100%;}
@@ -62,7 +62,7 @@
 .content .section .section-wrap .sub-title{font-size: 2rem; font-family: 'paybooc-Bold'; margin-bottom: 50px; text-shadow: 2px 2px 2px #181818;}
 .content .section .section-wrap .sub-content{font-size: 1.3rem;}
 
-.section1 .section-banner{background: url(https://i.postimg.cc/LszyPsXk/city-g35bea04d7-1920.jpg) center no-repeat; background-size: cover;}
+.section1 .section-banner{background: url(../img/business.png) center no-repeat; background-size: cover;}
 .section1 .left div:nth-child(1),
 .section1 .right div:nth-child(1){margin-bottom: 100px;}
 .section1 .left{margin-bottom: 100px; flex-basis: 48%; position: relative;}
